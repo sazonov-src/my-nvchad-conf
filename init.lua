@@ -5,3 +5,10 @@
 --   pattern = "*",
 --   command = "tabdo wincmd =",
 -- })
+-- 
+vim.cmd([[
+  augroup auto_save
+    autocmd!
+    autocmd InsertLeave * :write
+  augroup END
+]])
