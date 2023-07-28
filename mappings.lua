@@ -3,13 +3,11 @@ local M = {}
 
 M.general = {
   n = {
-    [";"] = { ":", "enter command mode", opts = { nowait = true } },
-    ["<leader>qq"] = { ":q!<CR>", "Вийти" },
-    ["<leader>qw"] = { ":wq<CR>", "Вийти" },
-  },
-}
+    -- [";"] = { ";", "enter command mode", opts = { nowait = true } },
+    ["<leader>q"] = { ":wqa<CR>", "Вийти" },
 
-
--- more keybinds!
+-- more keybinds! 
+      };
+  };
 
 return M

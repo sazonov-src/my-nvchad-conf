@@ -2,8 +2,30 @@ local overrides = require("custom.configs.overrides")
 
 ---@type NvPluginSpec[]
 local plugins = {
+  {
+   "tpope/vim-repeat",
+   lazy = false
+  },
 
+  {
+   "tpope/vim-surround",
+    lazy = false
+  },
+
+  {
+    "michaeljsmith/vim-indent-object",
+    lazy = false
+  },
   -- Override plugin definition options
+  {
+    'kana/vim-textobj-user',
+    lazy = false,
+  },
+
+  {
+     "bps/vim-textobj-python",
+      lazy = false,
+  },
 
   {
     "neovim/nvim-lspconfig",
