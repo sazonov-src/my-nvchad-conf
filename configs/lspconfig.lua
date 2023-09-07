@@ -12,18 +12,18 @@ for _, lsp in ipairs(servers) do
     capabilities = capabilities,
   }
 end
-
-lspconfig.pyright.setup {
-  settings =
-{
-  python = {
-    analysis = {
-      autoSearchPaths = true,
-      diagnosticMode = "workspace",
-      useLibraryCodeForTypes = true,
-      typeCheckingMode = "off",
-      -- analysisUnannotatedFunctions = true
-    }
-  }
-}
-}
+--
+-- lspconfig.pyright.setup {
+--   settings =
+-- {
+--   python = {
+--     analysis = {
+--       autoSearchPaths = true,
+--       diagnosticMode = "workspace",
+--       useLibraryCodeForTypes = true,
+--       typeCheckingMode = "off",
+--       -- analysisUnannotatedFunctions = true
+--     }
+--   }
+-- }
+-- }
