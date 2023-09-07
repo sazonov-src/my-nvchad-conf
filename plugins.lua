@@ -2,10 +2,6 @@ local overrides = require("custom.configs.overrides")
 
 ---@type NvPluginSpec[]
 local plugins = {
-  {
-   "tpope/vim-repeat",
-   lazy = false
-  },
 
   {
    "tpope/vim-surround",
