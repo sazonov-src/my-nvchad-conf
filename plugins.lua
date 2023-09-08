@@ -4,6 +4,10 @@ local overrides = require("custom.configs.overrides")
 local plugins = {
 
   {
+  'projekt0n/github-nvim-theme'
+  },
+
+  {
    "tpope/vim-surround",
     lazy = false
   },
